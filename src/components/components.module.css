@@ -1,0 +1,41 @@
+.app{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 7em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.count{
+    text-align: center;
+    font-weight: bolder;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: deepskyblue;
+}
+.countOn{
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.buttons{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+.button{
+    margin: 6px;
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+    border-radius: 5px;
+}
+.button:disabled{
+    background-color: lightblue;
+    border: 1px solid lightblue;
+}
+
