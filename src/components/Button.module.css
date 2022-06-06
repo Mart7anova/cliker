@@ -1,0 +1,37 @@
+.default {
+    width: 48px;
+    text-align:center;
+    display:inline-block;
+    font-family: Arial, serif;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid;
+    color: dodgerblue;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    transition: .5s;
+    border-radius: 10px;
+    background-color: #293133;
+}
+.default:hover:not([disabled]){
+    top: 5px;
+    transition: .5s;
+    color: deepskyblue;
+    border: 1px solid;
+    background-color: black;
+}
+.default:active:not([disabled]) {
+    color: #293133;
+    border: 1px solid #293133;
+    transition: .07s;
+    background-color: dodgerblue;
+}
+
+.default:disabled {
+    color: #293133;
+    border: 1px solid #293133;
+    background-color: dodgerblue;
+}

@@ -1,0 +1,16 @@
+.superInput {
+    width: 80px;
+    outline: none;
+    display:inline-block;
+    font-family: Arial, serif;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid cornflowerblue;
+    background-color: #293133;
+    color: white;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: .5s;
+}

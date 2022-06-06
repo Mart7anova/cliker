@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './components.module.css';
+import s from './Button.module.css';
 
 type propsType={
     name: string
@@ -9,7 +9,7 @@ type propsType={
 
 const Button = (props: propsType) => {
     return (
-            <button className={s.button} onClick={props.callBack} disabled={props.disable}>
+            <button className={s.default} onClick={props.callBack} disabled={props.disable}>
                 {props.name}
             </button>
     );

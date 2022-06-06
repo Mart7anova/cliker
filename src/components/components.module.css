@@ -2,40 +2,42 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    width: 7em;
-    border: 1px solid black;
-    border-radius: 5px;
+    width: 8em;
+    font-family: Arial, serif;
 }
 .count{
+    height: 42px;
     text-align: center;
     font-weight: bolder;
     margin: 6px;
     padding: 10px;
     border-radius: 5px;
-    background-color: deepskyblue;
+    background-color: dodgerblue;
+    color: white;
 }
 .countOn{
-    color: red;
+    height: 42px;
     text-align: center;
     font-weight: bolder;
     margin: 6px;
     padding: 10px;
     border-radius: 5px;
-    background-color: lightblue;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    background-color: #293133;
 }
 .buttons{
-    border: 1px solid black;
+    background-color: dodgerblue;
     border-radius: 5px;
     margin: 5px;
 }
-.button{
-    margin: 6px;
-    background-color: deepskyblue;
-    border: 1px solid deepskyblue;
-    border-radius: 5px;
-}
-.button:disabled{
-    background-color: lightblue;
-    border: 1px solid lightblue;
-}
 
+.settingValue{
+    text-align: center;
+    font-weight: bolder;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: black;
+}
